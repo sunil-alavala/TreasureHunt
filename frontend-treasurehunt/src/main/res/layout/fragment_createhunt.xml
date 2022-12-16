@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:labelFor="@id/create_hunt_name"
+            android:text= "@string/create_name">
+        </TextView>
+        <EditText
+            android:id="@+id/create_hunt_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:textSize="16sp">
+        </EditText>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text= "@string/create_points">
+        </TextView>
+        <!--fragment>
+        </fragment-->
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_arrow_up">
+    <target
+        android:name="leftBar"
+        android:animation="@animator/anim_arrow_point_down_left"/>
+
+    <target
+        android:name="rightBar"
+        android:animation="@animator/anim_arrow_point_down_right"/>
+</animated-vector>
